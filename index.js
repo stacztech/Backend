@@ -14,7 +14,7 @@ import cartRoutes from "./routes/cart.route.js";
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 9000;
+const PORT = 'https://ponsbackend.onrender.com';
 const __dirname = path.resolve();
 
 app.use(cors({ origin: "https://pons-final-final.vercel.app", credentials: true }));
